@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "phaser-tilemap-plus": "^0.10.2"
+  },
+  "name": "scififarm",
+  "description": "Project Marius is a farming simulation game written in Javascript and PhaserJS. Follow Freddie, a reformed villain trying to start a new life on a farm. Help him navigate his new life.",
+  "version": "0.0.1",
+  "main": "Marius.mjs",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "phaser-ce": "^2.20.0",
+    "poly-decomp": "^0.2.1"
+  },
+  "scripts": {
+    "test": "Marius.mjs"
+  },
+  "author": "GeorgeSchafer",
+  "license": "UNLICENSED"
+}

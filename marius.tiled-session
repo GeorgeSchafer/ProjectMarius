@@ -1,0 +1,160 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "assets/environments/rustic/puzzle_tf.json",
+    "expandedProjectPaths": [
+        "maps",
+        "assets",
+        ".",
+        "assets/environments"
+    ],
+    "fileStates": {
+        "assets/characters/fbas_13hair_bob1_00a.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/characters/player.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/A1_ruins.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/Chicken.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "assets/environments/rustic/Chicken_up.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "assets/environments/rustic/Pig.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/chest_mystic.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/desert_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/doors_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/dungeon2_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/dungeon_objects_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/dungeon_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/farmfort.json": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        },
+        "assets/environments/rustic/fences_mystic.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/forest_ansimuz.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/guide_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/house_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/inside_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/outside_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/pig.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/pig.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/puzzle_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/terrain_tf.json": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/tools.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "assets/environments/rustic/world_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Tutorial.tmx": {
+            "expandedGroupLayers": [
+                7,
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 109.66666666666669,
+                "y": 373.99999999999994
+            }
+        }
+    },
+    "frame.defaultDuration": 100,
+    "last.imagePath": "C:/Users/George/OneDrive/Workspace/Programming/JSTS/SciFiFarm/assets/sources/Hana_Caraka/Chicken",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 45,
+    "openFiles": [
+        "assets/environments/rustic/pig.json",
+        "assets/environments/rustic/puzzle_tf.json"
+    ],
+    "project": "marius.tiled-project",
+    "recentFiles": [
+        "assets/environments/rustic/pig.json",
+        "assets/environments/rustic/puzzle_tf.json",
+        "assets/environments/rustic/Chicken_up.json",
+        "assets/environments/rustic/Chicken.json",
+        "assets/environments/rustic/tools.json",
+        "assets/environments/rustic/pig.tsj",
+        "assets/environments/rustic/Pig.json",
+        "assets/environments/rustic/farmfort.json",
+        "assets/characters/player.json",
+        "maps/Tutorial.tmx",
+        "assets/environments/rustic/desert_tf.json",
+        "assets/environments/rustic/doors_tf.json"
+    ],
+    "tileset.lastUsedFormat": "json",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

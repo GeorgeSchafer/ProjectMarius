@@ -1,0 +1,14 @@
+{ "columns":20,
+ "image":"..\/sources\/tech_dungeon\/UI\/ui x1.png",
+ "imageheight":352,
+ "imagewidth":640,
+ "margin":0,
+ "name":"ui x1",
+ "spacing":0,
+ "tilecount":220,
+ "tiledversion":"1.10.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":18,
+ "image":"..\/..\/sources\/time_fantasy\/TimeFantasy\/desert.png",
+ "imageheight":368,
+ "imagewidth":288,
+ "margin":0,
+ "name":"desert",
+ "spacing":0,
+ "tilecount":414,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":5,
+ "image":"..\/sources\/time_fantasy\/gfxPack\/smoke.png",
+ "imageheight":256,
+ "imagewidth":320,
+ "margin":0,
+ "name":"smoke",
+ "spacing":0,
+ "tilecount":20,
+ "tiledversion":"1.10.2",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.10"
+}

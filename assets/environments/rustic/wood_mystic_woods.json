@@ -1,0 +1,30 @@
+{ "columns":1,
+ "image":"..\/..\/sources\/mystic_woods\/tilesets\/floors\/wooden.png",
+ "imageheight":16,
+ "imagewidth":16,
+ "margin":0,
+ "name":"wood floor",
+ "properties":[
+        {
+         "name":"source",
+         "type":"string",
+         "value":"https:\/\/game-endeavor.itch.io\/mystic-woods"
+        }],
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":0,
+         "properties":[
+                {
+                 "name":"solid",
+                 "type":"bool",
+                 "value":false
+                }]
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

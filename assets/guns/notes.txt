@@ -1,0 +1,24 @@
+Stocks
+
+Pistol-grip - for assault rifles
+stock_07, 
+stock_08,
+
+Short stock - for close range
+stock_05,
+
+Barrels
+
+01 Drum Magazine
+02 Bolt Action
+03 Shotgun
+04 Energy?
+05 Rifle
+06 Heavy
+07 High Rate
+08 Heavy
+09 Grenade launcher
+10 Rail
+11 Silenced
+12 Sniper
+13 Short (pistol)

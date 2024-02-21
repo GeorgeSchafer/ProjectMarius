@@ -1,0 +1,14 @@
+{ "columns":51,
+ "image":"..\/..\/sources\/time_fantasy\/TimeFantasy\/dungeon.png",
+ "imageheight":464,
+ "imagewidth":816,
+ "margin":0,
+ "name":"dungeon",
+ "spacing":0,
+ "tilecount":1479,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":5,
+ "image":"..\/sources\/time_fantasy\/gfxPack\/weapons_2.png",
+ "imageheight":384,
+ "imagewidth":320,
+ "margin":0,
+ "name":"weapons_2",
+ "spacing":0,
+ "tilecount":30,
+ "tiledversion":"1.10.2",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.10"
+}

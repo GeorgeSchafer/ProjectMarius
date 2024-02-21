@@ -1,0 +1,14 @@
+{ "columns":3,
+ "image":"..\/..\/sources\/FrozenTaurus_tools.png",
+ "imageheight":112,
+ "imagewidth":48,
+ "margin":0,
+ "name":"tools",
+ "spacing":0,
+ "tilecount":21,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

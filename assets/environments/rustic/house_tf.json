@@ -1,0 +1,14 @@
+{ "columns":69,
+ "image":"..\/..\/sources\/time_fantasy\/TimeFantasy\/house.png",
+ "imageheight":608,
+ "imagewidth":1104,
+ "margin":0,
+ "name":"house",
+ "spacing":0,
+ "tilecount":2622,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

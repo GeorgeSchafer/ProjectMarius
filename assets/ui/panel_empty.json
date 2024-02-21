@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"..\/sources\/wenrexa\/Card X1\/Panel Empty.png",
+ "imageheight":65,
+ "imagewidth":113,
+ "margin":0,
+ "name":"Panel Empty",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.10.2",
+ "tileheight":65,
+ "tilewidth":113,
+ "type":"tileset",
+ "version":"1.10"
+}

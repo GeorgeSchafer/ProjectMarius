@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"..\/..\/sources\/time_fantasy\/TopDownCollection\/dungeon-crawler-objects-transparent.png",
+ "imageheight":144,
+ "imagewidth":272,
+ "margin":16,
+ "name":"dungeon objects",
+ "spacing":0,
+ "tilecount":128,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

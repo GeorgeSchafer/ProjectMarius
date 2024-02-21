@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"..\/sources\/wenrexa\/Button 1\/Button Disable.png",
+ "imageheight":38,
+ "imagewidth":114,
+ "margin":0,
+ "name":"Button Disable",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.10.2",
+ "tileheight":38,
+ "tilewidth":114,
+ "type":"tileset",
+ "version":"1.10"
+}

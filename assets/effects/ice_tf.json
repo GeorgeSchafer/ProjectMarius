@@ -1,0 +1,14 @@
+{ "columns":5,
+ "image":"..\/sources\/time_fantasy\/gfxPack\/ice.png",
+ "imageheight":512,
+ "imagewidth":320,
+ "margin":0,
+ "name":"ice",
+ "spacing":0,
+ "tilecount":40,
+ "tiledversion":"1.10.2",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.10"
+}

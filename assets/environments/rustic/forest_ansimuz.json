@@ -1,0 +1,27 @@
+{
+       "columns": 25,
+       "image": "..\/..\/sources\/time_fantasy\/TopDownCollection\/top-down-forest-tileset.png",
+       "imageheight": 176,
+       "imagewidth": 432,
+       "margin": 32,
+       "name": "top-down-forest-tileset",
+       "spacing": 0,
+       "tilecount": 225,
+       "tiledversion": "1.10.2",
+       "tileheight": 16,
+       "tiles": [
+              {
+                     "id": 139,
+                     "properties": [
+                            {
+                                   "name": "source",
+                                   "type": "string",
+                                   "value": "https:\/\/ansimuz.itch.io\/patreons-top-down-collection"
+                            }
+                     ]
+              }
+       ],
+       "tilewidth": 16,
+       "type": "tileset",
+       "version": "1.10"
+}

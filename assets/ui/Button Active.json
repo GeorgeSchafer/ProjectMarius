@@ -1,0 +1,14 @@
+{ "columns":3,
+ "image":"..\/sources\/wenrexa\/Button 1\/Button Active.png",
+ "imageheight":38,
+ "imagewidth":114,
+ "margin":0,
+ "name":"Button Active",
+ "spacing":0,
+ "tilecount":3,
+ "tiledversion":"1.10.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"..\/..\/sources\/time_fantasy\/RuinDungeon\/A4_ruins.png",
+ "imageheight":240,
+ "imagewidth":256,
+ "margin":0,
+ "name":"A4_ruins",
+ "spacing":0,
+ "tilecount":240,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

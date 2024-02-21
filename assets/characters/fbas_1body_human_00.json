@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"..\/sources\/mana_seed\/Farmer System\/farmer base sheets\/01body\/fbas_1body_human_00.png",
+ "imageheight":1024,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"fbas_1body_human_00",
+ "spacing":0,
+ "tilecount":256,
+ "tiledversion":"1.10.2",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.10"
+}
