@@ -1,9 +1,47 @@
 
 class Crop {
     constructor(name){
+        this.timeStamp = stampTime()
         this.name = name
         this.stage = 0
         this.time = []
+        this.mature = false
+    }
+
+    static stampTime(){
+        return new Date()
+    }
+
+    static incrementStage(crops){    
+        const now = Crop.stampTime()
+
+        for(let [value] in Object.entries(crops)){
+            value.forEach(crop => {
+                if(!mature && this.timeStamp - now > crop.time[crop.stage]){
+                    crop.timeStamp = now
+                    crop.stage++
+                    crop.stage === crop.time.length
+                        ? crop.mature = true 
+                        : crop.mature = false
+                    console.log(`The ${crop.name} is now at stage ${crop.stage} of ${crop.time.length}`)
+                }
+            })
+        }
+    }
+
+    static allMature(crops){
+        for(let [value] in Object.entries(crops)){
+            value.forEach(crop => {
+                if(!crop.mature){
+                    return false
+                }
+            })
+        }
+        return true
+    }
+
+    getMature(){
+        return this.mature
     }
 }
 
@@ -61,6 +99,7 @@ class Melon extends Crop {
 }
 
 export {
+    Crop,
     Cabbage,
     Grain,
     Grape,

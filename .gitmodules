@@ -1,0 +1,3 @@
+[submodule "libs/ChaiFunctions"]
+	path = libs/ChaiFunctions
+	url = https://github.com/GeorgeSchafer/ChaiFunctions.git
