@@ -1,4 +1,3 @@
-import 'mocha'
 import {
     threwError,
     did,
@@ -12,12 +11,21 @@ import {
     nullCheck
 } from '../libs/ChaiFunctions/ChaiFunctions.mjs'
 import {
-    running
-} from '../Marius.mjs'
+    Crop,
+    Cabbage,
+    Grain,
+    Grape,
+    Melon
+} from '../javascripts/Crops.mjs'
+
 
 
 describe('Crops', () => {
     describe('Constructor', () => {
-        running(true)
+        const crop = new Crop('rice')
+        valueMatch(crop.name, 'rice')
+        valueMatch(crop.stage, 0)
+        valueMatch(crop.time, [])
+        valueMatch(crop.mature, false)
     })
 })

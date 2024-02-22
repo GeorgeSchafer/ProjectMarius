@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
     "phaser-tilemap-plus": "^0.10.2"
   },
   "name": "scififarm",

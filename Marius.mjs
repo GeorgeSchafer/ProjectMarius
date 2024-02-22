@@ -43,7 +43,6 @@ function running(running){
     }
 }
 
-running(true)
 
 export {
     running
