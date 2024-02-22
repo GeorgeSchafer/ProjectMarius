@@ -1,7 +1,7 @@
 
 class Crop {
     constructor(name){
-        this.timeStamp = stampTime()
+        this.timeStamp = Crop.stampTime()
         this.name = name
         this.stage = 0
         this.time = []
@@ -15,9 +15,9 @@ class Crop {
     static incrementStage(crops){    
         const now = Crop.stampTime()
 
-        for(let [value] in Object.entries(crops)){
+        Object.values(crops).forEach(value => {
             value.forEach(crop => {
-                if(!mature && this.timeStamp - now > crop.time[crop.stage]){
+                if(!crop.getMature() && this.timeStamp - now > crop.time[crop.stage]){
                     crop.timeStamp = now
                     crop.stage++
                     crop.stage === crop.time.length
@@ -26,22 +26,27 @@ class Crop {
                     console.log(`The ${crop.name} is now at stage ${crop.stage} of ${crop.time.length}`)
                 }
             })
-        }
+        })
     }
 
     static allMature(crops){
-        for(let [value] in Object.entries(crops)){
+        Object.values(crops).forEach(value => {
             value.forEach(crop => {
-                if(!crop.mature){
+                if(!crop.getMature()){
                     return false
                 }
             })
-        }
+        })
+        
         return true
     }
 
     getMature(){
         return this.mature
+    }
+
+    getStamp(){
+        return this.timeStamp
     }
 }
 

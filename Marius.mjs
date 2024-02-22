@@ -30,7 +30,7 @@ const crops = {
     ]
 }
 
-function running(running){
+function main(running){
     while(running){
         console.log('running')
 
@@ -41,11 +41,12 @@ function running(running){
         }
 
     }
+    console.log('done')
 }
 
 
 export {
-    running
+    main
 }
 
 
