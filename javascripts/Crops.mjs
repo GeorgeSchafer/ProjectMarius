@@ -51,8 +51,8 @@ class Crop {
 }
 
 class Cabbage extends Crop {
-    constructor(){
-        super('cabbage')
+    constructor(name='cabbage'){
+        super(name)
         this.time = [
             120000, 
             60000,
@@ -63,8 +63,8 @@ class Cabbage extends Crop {
 }
 
 class Grain extends Crop {
-    constructor(){
-        super('grain')
+    constructor(name='grain'){
+        super(name)
         this.time = [
             60000,
             40000,
@@ -76,8 +76,8 @@ class Grain extends Crop {
 }
 
 class Grape extends Crop {
-    constructor(){
-        super('grape')
+    constructor(name='grape'){
+        super(name)
         this.time = [
             120000,
             90000,
@@ -90,8 +90,8 @@ class Grape extends Crop {
 }
 
 class Melon extends Crop {
-    constructor(){
-        super('melon')
+    constructor(name='melon'){
+        super(name)
         this.time = [
             120000,
             90000,

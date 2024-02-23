@@ -88,7 +88,78 @@ describe('Crops', () => {
         testStamp(start, finish, melon)
     })
 
+    describe('Crop subclasses', () => {
+        const start = new Date()
+        const crops = {
+            melons: [
+                new Melon('watermelon'),
+            ],
+            grapes: [
+                new Grape('red'),
+            ],
+            grains: [
+                new Grain('maize'),
+            ],
+            cabbages: [
+                new Cabbage('red')
+            ]
+        }
+        const finish = new Date()
+
+        valueMatch(crops.melons[0].name, 'watermelon')
+        valueMatch(crops.melons[0].stage, 0)
+        valueMatch(crops.melons[0].time, [
+            120000,
+            90000,
+            60000,
+            30000,
+            15000,
+            7500
+        ])
+        valueMatch(crops.melons[0].getMature(), false)
+        testStamp(start, finish, crops.melons[0])
+
+        valueMatch(crops.grains[0].name, 'maize')
+        valueMatch(crops.grains[0].stage, 0)
+        valueMatch(crops.grains[0].time, [
+            60000,
+            40000,
+            30000,
+            15000,
+            10000
+        ])
+        valueMatch(crops.grains[0].getMature(), false)
+        testStamp(start, finish, crops.grains[0])
+
+        valueMatch(crops.grapes[0].name, 'red')
+        valueMatch(crops.grapes[0].stage, 0)
+        valueMatch(crops.grapes[0].time, [
+            120000,
+            90000,
+            60000,
+            30000,
+            15000,
+            7500
+        ])
+        valueMatch(crops.grapes[0].getMature(), false)
+        testStamp(start, finish, crops.grapes[0])
+
+        valueMatch(crops.cabbages[0].name, 'red')
+        valueMatch(crops.cabbages[0].stage, 0)
+        valueMatch(crops.cabbages[0].time, [
+            120000, 
+            60000,
+            30000,
+            15000
+        ])
+        valueMatch(crops.cabbages[0].getMature(), false)
+        testStamp(start, finish, crops.cabbages[0])
+
+
+    })
+
     describe('main', () => {
+        main(true)
     })
 })
 
