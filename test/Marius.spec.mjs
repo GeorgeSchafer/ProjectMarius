@@ -17,7 +17,6 @@ import {
     Grape,
     Melon
 } from '../javascripts/Crops.mjs'
-import { main } from '../Marius.mjs'
 import { expect } from 'chai'
 
 
@@ -154,12 +153,9 @@ describe('Crops', () => {
         ])
         valueMatch(crops.cabbages[0].getMature(), false)
         testStamp(start, finish, crops.cabbages[0])
-
-
     })
 
     describe('main', () => {
-        main(true)
     })
 })
 
