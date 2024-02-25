@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../Games/itch/TimeFantasy/time-fantasy-farmandfort"
 		}
 	],
 	"settings": {}

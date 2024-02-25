@@ -35,7 +35,7 @@ class Cabbage extends Crop {
 class Cauliflower extends Cabbage {
     constructor(name='cauliflower'){
         super(name)
-        animation_tile_ids = [1279]
+        this.animation_tile_ids = [1279]
     }
 
 }
@@ -43,7 +43,7 @@ class Cauliflower extends Cabbage {
 class Lettuce extends Cabbage {
     constructor(name='lettuce'){
         super(name)
-        animation_tile_ids = [1644]
+        this.animation_tile_ids = [1644]
     }
 }
 
@@ -64,14 +64,14 @@ class Grain extends Crop {
 class Maize extends Grain {
     constructor(name='maize'){
         super(name)
-        animation_tile_ids = [1524,1483]
+        this.animation_tile_ids = [1524,1483]
     }
 }
 
 class Wheat extends Grain {
     constructor(name='wheat'){
         super(name)
-        animation_tile_ids = [1442,1401]
+        this.animation_tile_ids = [1442,1401]
     }
 
 }
@@ -93,14 +93,41 @@ class Grape extends Crop {
 class RedGrape extends Grape {
     constructor(name='red grape'){
         super(name)
-        animation_tile_ids = [1606,1565,1361]
+        this.animation_tile_ids = [1606,1565,1361]
     }
 }
 
 class WhiteGrape extends Grape {
     constructor(name='white grape'){
         super(name)
-        animation_tile_ids = [1606,1565,1357]
+        this.animation_tile_ids = [1606,1565,1357]
+    }
+}
+
+class Grass extends Crop {
+    constructor(name='grass'){
+        super(name)
+        this.time = [
+            15000,
+            7500
+        ]
+        this.nitrogen = 1
+    }
+}
+
+class Clover extends Grass {
+    constructor(name='clover'){
+        super(name)
+        this.animation_tile_ids = [null]
+        this.nitrogen = 2
+    }
+}
+
+class Alfalfa extends Grass {
+    constructor(name='alfalfa'){
+        super(name)
+        this.animation_tile_ids = [null]
+        this.nitrogen = 3
     }
 }
 
@@ -115,7 +142,7 @@ class Melon extends Crop {
             15000,
             7500
         ]
-        animation_tile_ids = [1320]
+        this.animation_tile_ids = [1320]
     }
 }
 
@@ -147,19 +174,25 @@ class Root extends Crop {
 class Carrot extends Root {
     constructor(name='carrot'){
         super(name)
-        animation_tile_ids = [1237]
+        this.animation_tile_ids = [1237]
     }
 }
 
 class Turnip extends Root {
     constructor(name='turnip'){
         super(name)
-        animation_tile_ids = [1155]
+        this.animation_tile_ids = [1155]
     }
 }
 
 class Farm {
     constructor(){
+        /**
+         * @param {Object} this.crops - An object with keys that represent the
+         *     type of crop and the individual instances of each crop.
+         * @param {Array} this.fields - An array of Field objects which represent
+         *     areas of the farm devoted to growing crops or raising animals.
+         */
         this.crops = {
             cabbages: [],
             grains: [],
@@ -174,13 +207,6 @@ class Farm {
     }
 
     maturityCheck(){
-        /**
-         * @param {Object} this.crops - An object containing arrays of Crop objects
-         *      crops = {
-         *         cabbages: [cabbage1, cabbage2, ...],
-         *         ...
-         *      }
-         */
         let result = true
         Object.values(this.crops).forEach(value => {
             value.forEach(crop => {
@@ -193,7 +219,7 @@ class Farm {
         return result
     }
 
-    incrementStage(){
+    incrementStages(){
         const now = Crop.stampTime()
 
         Object.values(this.crops).forEach(value => {
@@ -201,7 +227,7 @@ class Farm {
                 if(!crop.getMature() && this.timeStamp - now > crop.time[crop.stage]){
                     crop.timeStamp = now
                     crop.stage++
-                    crop.stage === crop.time.length
+                    crop.stage >= crop.time.length
                         ? crop.mature = true 
                         : crop.mature = false
                     console.log(`The ${crop.name} is now at stage ${crop.stage} of ${crop.time.length}`)
@@ -215,12 +241,18 @@ class Field {
     constructor(){
         /**
          * @param {Array} this.plots - is an array of arrays that represent the field
-         *     by their index. Each plot is a 1x1 square of land.
+         *     by their index. Each plot is a 1x1 square of land and holds a single
+         *     instance of a crop.
          */
         this.plot = [
-            []
+            [null]
         ]
-        this.health = 4
+        this.nitrogen = 7
+        this.infestation = {
+            locust: 0,
+            butterfly: 0,
+            beetle: 0
+        }
     }
 
     getPlot(x, y=0){
@@ -230,7 +262,17 @@ class Field {
     setPlot(crop, x, y=0){
         this.plot[x][y] = crop
     }
+
+    getNitrogen(){
+        return this.nitrogen
+    }
+
+    setNitrogen(nitrogen){
+        this.nitrogen = nitrogen
+    }
 }
+
+
 
 export {
     Crop,

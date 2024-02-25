@@ -1,13 +1,26 @@
 import {
-    Crop,
     Cabbage,
-    Grape,
+    Cauliflower,
+    Lettuce,
     Grain,
-    Melon
+    Maize,
+    Wheat,
+    Grape,
+    RedGrape,
+    WhiteGrape,
+    Melon,
+    Potato,
+    Root,
+    Carrot,
+    Turnip,
+    Farm,
+    Field
 } from './javascripts/Crops.mjs'
 
 
 let running = true
+
+const farm = new Farm()
 
 const crops = {
     melons: [
@@ -30,24 +43,20 @@ const crops = {
     ]
 }
 
+farm.crops = crops
+
+main(true)
+
 function main(running){
     while(running){
         console.log('running')
 
-        Crop.incrementStage(crops)
-
-        if(Crop.allMature(crops)){
-            running = false
-        }
+        running = !farm.maturityCheck()
 
     }
     console.log('done')
 }
 
-
-export {
-    main
-}
 
 
 
