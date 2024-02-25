@@ -244,7 +244,7 @@ class Field {
          *     by their index. Each plot is a 1x1 square of land and holds a single
          *     instance of a crop.
          */
-        this.plot = [
+        this.plots = [
             [null]
         ]
         this.nitrogen = 7
@@ -256,11 +256,11 @@ class Field {
     }
 
     getPlot(x, y=0){
-        return this.plot[x][y]
+        return this.plots[x][y]
     }
 
     setPlot(crop, x, y=0){
-        this.plot[x][y] = crop
+        this.plots[x][y] = crop
     }
 
     getNitrogen(){
