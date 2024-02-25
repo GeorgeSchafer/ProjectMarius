@@ -3,19 +3,35 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "assets/environments/rustic/puzzle_tf.json",
+    "activeFile": "assets/environments/rustic/tools.json",
     "expandedProjectPaths": [
-        "maps",
+        "assets/environments/rustic",
+        "assets/environments",
         "assets",
-        ".",
-        "assets/environments"
+        "."
     ],
     "fileStates": {
         "assets/characters/fbas_13hair_bob1_00a.json": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "assets/characters/fbas_1body_human_00.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
         "assets/characters/player.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/characters/scifi_enemies.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/characters/scifi_npc.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/A1_ashlands.json": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -32,6 +48,10 @@
             "scaleInEditor": 8
         },
         "assets/environments/rustic/Pig.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/environments/rustic/castle_tf.json": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -107,6 +127,10 @@
             "scaleInDock": 1,
             "scaleInEditor": 3
         },
+        "assets/environments/rustic/water_tf.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "assets/environments/rustic/world_tf.json": {
             "scaleInDock": 1,
             "scaleInEditor": 1
@@ -132,23 +156,22 @@
     "map.tileWidth": 16,
     "map.width": 45,
     "openFiles": [
-        "assets/environments/rustic/pig.json",
-        "assets/environments/rustic/puzzle_tf.json"
+        "assets/environments/rustic/tools.json"
     ],
     "project": "marius.tiled-project",
     "recentFiles": [
-        "assets/environments/rustic/pig.json",
-        "assets/environments/rustic/puzzle_tf.json",
+        "assets/environments/rustic/tools.json",
+        "assets/environments/rustic/dungeon_objects_tf.json",
+        "assets/environments/rustic/dungeon_tf.json",
+        "assets/environments/rustic/chest_mystic.json",
+        "assets/environments/rustic/dungeon2_tf.json",
+        "assets/environments/rustic/castle_tf.json",
+        "assets/environments/rustic/water_tf.json",
         "assets/environments/rustic/Chicken_up.json",
         "assets/environments/rustic/Chicken.json",
-        "assets/environments/rustic/tools.json",
-        "assets/environments/rustic/pig.tsj",
-        "assets/environments/rustic/Pig.json",
-        "assets/environments/rustic/farmfort.json",
-        "assets/characters/player.json",
-        "maps/Tutorial.tmx",
-        "assets/environments/rustic/desert_tf.json",
-        "assets/environments/rustic/doors_tf.json"
+        "assets/environments/rustic/A1_ashlands.json",
+        "assets/characters/fbas_1body_human_00.json",
+        "assets/characters/player.json"
     ],
     "tileset.lastUsedFormat": "json",
     "tileset.margin": 0,
