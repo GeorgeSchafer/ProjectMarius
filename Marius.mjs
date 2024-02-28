@@ -57,6 +57,11 @@ function main(running){
     console.log('done')
 }
 
+const seasons = {
+    warm: {type: 'boolean'},
+    cold: {type: 'boolean'}
+}
+
 
 
 

@@ -5,6 +5,9 @@ const GUN_PARTS = {
     }
 }
 
+const SEASON_DURATION = (1000 * 60) * 20 // 20 minutes
 
-
-export { GUN_PARTS }
+export { 
+    GUN_PARTS,
+    SEASON_DURATION
+}

@@ -1,3 +1,5 @@
+import { SEASON_DURATION } from './Constants.mjs'
+
 class Crop {
     constructor(name){
         this.timeStamp = Crop.stampTime()
@@ -204,6 +206,11 @@ class Farm {
             trees: []
         }
         this.fields = []
+        this.seasons = {
+            start_stamp:  Date.now(),
+            warm: false,
+            cold: false
+        }
     }
 
     maturityCheck(){
