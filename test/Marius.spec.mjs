@@ -17,6 +17,7 @@ import {
     Grape,
     Melon
 } from '../javascripts/Crops.mjs'
+import { PIPE_SET } from '../javascripts/16xGuns.mjs'
 import { expect } from 'chai'
 
 
@@ -102,7 +103,10 @@ describe('Crops', () => {
         testStamp(start, finish, crops.cabbages[0])
     })
 
-    describe('main', () => {
+    describe('16x guns', () => {
+        const body = PIPE_SET.parts.body.rifle
+        const stock = PIPE_SET.parts.stocks.hollow
+        const barrel = PIPE_SET.parts.barrel.medium
     })
 })
 

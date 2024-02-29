@@ -1,37 +1,48 @@
 class GunPart {
-    constructor(widthPx){
+    static type
+    constructor(widthPx, pathStr){
         this.width = widthPx
+        this.path = pathStr
     }
 
+    static valueOf(){
+        return this.type
+    }
 }
 
 class Body extends GunPart {
-    constructor(widthPx){
-        super(widthPx)
+    static type = 'body'
+    constructor(widthPx, pathStr){
+        super(widthPx, pathStr)
+        
     }
 }
 
 class Stock extends GunPart {
-    constructor(widthPx){
-        super(widthPx)
+    static type = 'stock'
+    constructor(widthPx, pathStr){
+        super(widthPx, pathStr)
     }
 }
 
 class Sight extends GunPart {
-    constructor(widthPx){
-        super(widthPx)
+    static type = 'sight'
+    constructor(widthPx, pathStr){
+        super(widthPx, pathStr)
     }
 }
 
 class Barrel extends GunPart {
-    constructor(widthPx){
-        super(widthPx)
+    static type = 'barrel'
+    constructor(widthPx, pathStr){
+        super(widthPx, pathStr)
     }
 }
 
 class BarrelMod extends GunPart {
-    constructor(widthPx){
-        super(widthPx)
+    static type = 'barrel_mod'
+    constructor(widthPx, pathStr){
+        super(widthPx, pathStr)
     }
 }
 
@@ -79,3 +90,7 @@ class ArmSet {
 }
 
 const PIPE_SET = new ArmSet('Pipe','jadedrakerider/pipe gun constructor/16x/modular-pipe-guns.tileset.json')
+
+export {
+    PIPE_SET
+}
